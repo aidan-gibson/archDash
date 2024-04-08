@@ -6,6 +6,7 @@
   * pacman hook; but don't hold up installation term, just re-run in background
   * SEE ALSO links make work
 
+honestly I hate dash; make my own. see [[Documentation]] and [[manz]]
 
 # ref
 https://kapeli.com/docsets
