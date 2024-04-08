@@ -53,4 +53,5 @@ conn.close()
 
 
 # copy to /home/bruh/.local/share/Zeal/Zeal/docsets 
-# cp -r Arch-manpages.docset/ /home/bruh/.local/share/Zeal/Zeal/docsets/
+# cp -r Arch-manpages.docset/ /home/bruh/.local/share/Zeal/Zeal/docsets/ (for local arch zeal). btw ftp-ing this shit to mac came out fucked up; rsync -avz Arch-manpages.docset aidangibson@10.0.0.14:/Users/aidangibson/Downloads
+# tar --exclude='.DS_Store' -cvzf Arch-manpages.tgz Arch-manpages.docset (for feed)
